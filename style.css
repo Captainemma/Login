@@ -111,7 +111,8 @@ h1 {
   #cbx {
     width: 16px; 
     height: 16px;
-    vertical-align: middle; 
+    vertical-align: middle;
+    margin-top: 30px; 
   }
 
   label[for="checkbox"] {
@@ -119,8 +120,8 @@ h1 {
   }
 
   .left-container h1 {
-    font-size: 40px; /* Reduce font size for smaller screens */
-    padding-top: 40px; /* Adjust spacing */
+    font-size: 40px; 
+    padding-top: 40px; 
   }
   
 }
