@@ -73,6 +73,13 @@ body {
   background-color: orange;
 }
 
+h1 {
+  font-size: 60px; 
+  color: snow; 
+  justify-content: center; 
+  padding-top: 170px;
+}
+
 @media (max-width: 800px) {
   .main-container {
     flex-direction: column;
@@ -92,6 +99,7 @@ body {
   .form-box {
     padding-left: 20px;
     padding-top: 20px;
+    height: auto;
   }
 
   .form-box form input,
@@ -109,5 +117,11 @@ body {
   label[for="checkbox"] {
     font-size: 16px; 
   }
+
+  .left-container h1 {
+    font-size: 40px; /* Reduce font size for smaller screens */
+    padding-top: 40px; /* Adjust spacing */
+  }
+  
 }
 
